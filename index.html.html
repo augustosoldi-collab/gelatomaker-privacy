@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GelatoMaker — Política de Privacidad / Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0a04;
+      color: #e8dcc8;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1a1005;
+      border-bottom: 1px solid #2e1f08;
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #F5A623;
+      letter-spacing: 0.02em;
+    }
+
+    header p {
+      color: #a08060;
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px auto 0;
+    }
+
+    .lang-toggle button {
+      background: #2e1f08;
+      color: #e8dcc8;
+      border: 1px solid #3e2a10;
+      border-radius: 20px;
+      padding: 6px 20px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .lang-toggle button.active {
+      background: #F5A623;
+      color: #0f0a04;
+      border-color: #F5A623;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    .lang-section { display: none; }
+    .lang-section.visible { display: block; }
+
+    h2 {
+      color: #F5A623;
+      font-size: 1.25rem;
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #2e1f08;
+    }
+
+    h2:first-child { margin-top: 0; }
+
+    p { margin-bottom: 12px; color: #c8b898; }
+
+    ul {
+      margin: 8px 0 16px 20px;
+      color: #c8b898;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    .highlight-box {
+      background: #1a1005;
+      border: 1px solid #2e1f08;
+      border-left: 4px solid #F5A623;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      color: #e8dcc8;
+      font-weight: 500;
+    }
+
+    a { color: #F5A623; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .date {
+      color: #806040;
+      font-size: 0.85rem;
+      margin-bottom: 28px;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      border-top: 1px solid #2e1f08;
+      color: #604020;
+      font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GelatoMaker</h1>
+  <p>Política de Privacidad · Privacy Policy</p>
+  <div class="lang-toggle">
+    <button class="active" onclick="setLang('es')">Español</button>
+    <button onclick="setLang('en')">English</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== ESPAÑOL ===== -->
+  <section class="lang-section visible" id="lang-es">
+
+    <span class="date">Última actualización: 25 de marzo de 2026</span>
+
+    <div class="highlight-box">
+      <p>GelatoMaker no recopila, almacena ni transmite ningún dato personal. Toda la información que introduces en la app permanece exclusivamente en tu dispositivo.</p>
+    </div>
+
+    <h2>1. Información general</h2>
+    <p>GelatoMaker es una aplicación de formulación de recetas de gelato artesanal. Esta política de privacidad describe cómo tratamos (o más bien, cómo <em>no</em> tratamos) tu información personal.</p>
+
+    <h2>2. Datos que recopilamos</h2>
+    <p><strong>No recopilamos ningún dato personal.</strong> En concreto:</p>
+    <ul>
+      <li>No recogemos tu nombre, correo electrónico ni ningún dato de identificación.</li>
+      <li>No accedemos a tu cámara, micrófono, ubicación ni galería de fotos.</li>
+      <li>No rastreamos tu comportamiento dentro de la app.</li>
+      <li>No utilizamos analytics, cookies ni servicios de terceros que recopilen datos.</li>
+      <li>No enviamos ningún dato a servidores externos.</li>
+    </ul>
+
+    <h2>3. Datos que guardas tú en la app</h2>
+    <p>La app almacena en el almacenamiento local de tu dispositivo (AsyncStorage):</p>
+    <ul>
+      <li>Las recetas de gelato que tú creas y guardas.</li>
+      <li>Los ingredientes personalizados que añades o modificas.</li>
+      <li>Tus preferencias de la app (idioma, temperatura de trabajo).</li>
+    </ul>
+    <p>Estos datos <strong>nunca salen de tu dispositivo</strong>. Si desinstala la app, todos estos datos se eliminan automáticamente.</p>
+
+    <h2>4. Funcionamiento sin conexión</h2>
+    <p>GelatoMaker funciona completamente sin conexión a internet. No necesita conexión para ninguna función. No existe cuenta de usuario, no hay servidores propios y no se realiza ninguna comunicación de red.</p>
+
+    <h2>5. Uso compartido de datos</h2>
+    <p>La app incluye una función de exportación que te permite compartir el resumen de una receta a través de las aplicaciones de mensajería o correo de tu propio dispositivo (por ejemplo, WhatsApp, Gmail). Este envío lo realizas tú directamente; GelatoMaker no interviene en ese proceso ni accede a los datos compartidos.</p>
+
+    <h2>6. Menores de edad</h2>
+    <p>GelatoMaker no está dirigida a menores de 13 años. No recopilamos intencionadamente información de menores. Si eres padre o tutor y crees que un menor ha proporcionado información personal, contáctanos para que podamos tomar las medidas necesarias.</p>
+
+    <h2>7. Seguridad</h2>
+    <p>Dado que no recopilamos ni transmitimos datos, el riesgo de exposición de información personal a través de GelatoMaker es nulo. Los datos que guardas en la app están protegidos por el sistema de aislamiento de aplicaciones del sistema operativo de tu dispositivo (iOS o Android).</p>
+
+    <h2>8. Cambios en esta política</h2>
+    <p>Si en el futuro introdujéramos cualquier recopilación de datos, actualizaremos esta política y notificaremos a los usuarios a través de una actualización de la app en la tienda. La fecha de la última actualización siempre aparece en la cabecera de este documento.</p>
+
+    <h2>9. Contacto</h2>
+    <p>Para cualquier consulta sobre privacidad, puedes contactarnos en:</p>
+    <p><a href="mailto:augusto.soldi@gmail.com">augusto.soldi@gmail.com</a></p>
+
+  </section>
+
+  <!-- ===== ENGLISH ===== -->
+  <section class="lang-section" id="lang-en">
+
+    <span class="date">Last updated: March 25, 2026</span>
+
+    <div class="highlight-box">
+      <p>GelatoMaker does not collect, store, or transmit any personal data. All information you enter in the app stays exclusively on your device.</p>
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>GelatoMaker is an artisan gelato recipe formulation app. This privacy policy explains how we handle — or rather, how we <em>do not</em> handle — your personal information.</p>
+
+    <h2>2. Data we collect</h2>
+    <p><strong>We collect no personal data whatsoever.</strong> Specifically:</p>
+    <ul>
+      <li>We do not collect your name, email address, or any identifying information.</li>
+      <li>We do not access your camera, microphone, location, or photo library.</li>
+      <li>We do not track your behavior inside the app.</li>
+      <li>We do not use analytics, cookies, or any third-party data collection services.</li>
+      <li>We do not send any data to external servers.</li>
+    </ul>
+
+    <h2>3. Data you store in the app</h2>
+    <p>The app stores the following data in your device's local storage (AsyncStorage):</p>
+    <ul>
+      <li>Gelato recipes you create and save.</li>
+      <li>Custom ingredients you add or modify.</li>
+      <li>Your app preferences (language, working temperature).</li>
+    </ul>
+    <p>This data <strong>never leaves your device</strong>. If you uninstall the app, all this data is automatically deleted.</p>
+
+    <h2>4. Offline operation</h2>
+    <p>GelatoMaker works entirely without an internet connection. No internet access is required for any feature. There is no user account, no proprietary servers, and no network communication of any kind.</p>
+
+    <h2>5. Data sharing</h2>
+    <p>The app includes an export feature that lets you share a recipe summary through your device's own messaging or email apps (e.g., WhatsApp, Gmail). This sharing is done directly by you; GelatoMaker does not participate in that process or access the shared data.</p>
+
+    <h2>6. Children</h2>
+    <p>GelatoMaker is not directed at children under the age of 13. We do not knowingly collect information from children. If you are a parent or guardian and believe a child has provided personal information, please contact us so we can take appropriate action.</p>
+
+    <h2>7. Security</h2>
+    <p>Since we collect and transmit no data, the risk of personal information exposure through GelatoMaker is zero. Any data you save in the app is protected by your device operating system's (iOS or Android) app sandboxing.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>If we ever introduce any form of data collection, we will update this policy and notify users through an app store update. The last updated date always appears at the top of this document.</p>
+
+    <h2>9. Contact</h2>
+    <p>For any privacy-related questions, please contact us at:</p>
+    <p><a href="mailto:augusto.soldi@gmail.com">augusto.soldi@gmail.com</a></p>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2026 GelatoMaker · <a href="mailto:augusto.soldi@gmail.com">augusto.soldi@gmail.com</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('visible'));
+    document.querySelectorAll('.lang-toggle button').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('visible');
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
